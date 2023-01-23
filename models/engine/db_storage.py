@@ -92,4 +92,4 @@ class DBStorage:
         else:
             for obj in self.__session.query(cls).all():
                 total += 1
-        return total
+        return 
